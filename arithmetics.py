@@ -9,3 +9,4 @@ sub = a[1:4]
 step = a[0:16:4]
 print(sub)
 print(step)
+print(step)
