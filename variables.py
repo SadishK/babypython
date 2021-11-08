@@ -1,9 +1,24 @@
 """
-Table of variables
+Author: SadishDK
+Practicing table object reference count
 """
 
-import keyword
-print(keyword.kwlist)
+a="nyc"
+b="nyc"
 
-variable_a = 10
+print(a)
+
+a=123
+
+print(a)
+print(b)
+
+b=456
+print(b)
+
+c='nyc'
+d=c
+
+print(c==d)
+print(d is c)
 

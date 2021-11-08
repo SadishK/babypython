@@ -1,5 +1,7 @@
-#Testing operators and arithmetics
-
+"""
+Author: SadishDK
+Practicing operators and arithmetics
+"""
 
 a = "1abc1abc1abc1bac"
 print(a.replace('abc','ABC'))
